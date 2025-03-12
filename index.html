@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royauté Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="logo-royauté.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="images/logo royauté.jpg">
+</head>
+<body>
+    <header class="position-relative">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('images/imagechemise1.jpg'); height: 100vh; background-size: cover; background-position: center;"></div>
+                <div class="carousel-item" style="background-image: url('images/portrait-jeune-femme-heureuse-insouciante-detourne-regard-expression-heureuse-aime-ses-nouvelles-boucles-oreilles-ressent-sourires-joyeux-porte-largement-pull-decontracte-veste-cuir-isolee-fond-j.avif'); height: 100vh; background-size: cover; background-position: center;"></div>
+                <div class="carousel-item" style="background-image: url('images/portrait-jeune-femme-souriante-fond-jaune_1048944-25316433.jpg'); height: 100vh; background-size: cover; background-position: center;"></div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+        <div class="container position-absolute top-50 start-50 translate-middle text-white text-center">
+            <h1 class="display-3 fw-bold">Bienvenue sur notre produit</h1>
+            <p class="lead">Découvrez une nouvelle façon de simplifier votre quotidien dans un style Royal qui impose le Respect.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">Contactez-nous</a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 top-0">
+            <div class="container fixed-top">
+                <img id="logo" src="images/logoR.png" alt="Logo Royauté" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">   
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fixed-top" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-warning" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link text-warning" href="avantages.html">Avantages</a></li>
+                        <li class="nav-item"><a class="nav-link text-warning" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+      
+    <main class="monMain">
+        
+    <section class="container text-center py-5">
+        <h1 class="display-4 reveal">Découvrez notre produit</h1>
+        <img src="images/WhatsApp Image 2025-03-06 à 10.28.07_61cca826.jpg" alt="Produit" class="img-fluid rounded shadow my-4 reveal">
+        <p class="lead reveal">Un style révolutionnaire qui simplifie votre quotidien.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg reveal">Contactez-nous</a>
+    </section>
+
+    </main>
+   <footer class="bg-dark text-white text-center py-4 mt-0">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <p>Email : RoyauteMode@gmail.com</p>
+                    <p>Téléphone : +225 07 08 79 76 57 / 05 76 52 51 86</p>
+                    <p>Adresse : cocody, rivera 2 </p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <img src="images/fbook.png" alt="Facebook" class="img-fluid social-icon-hover">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <img src="images/icon-x.png" alt="Twitter" class="img-fluid social-icon-hover">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <img src="images/insta.jpeg" alt="Instagram" class="img-fluid social-icon-hover">
+                        </a>
+                    </div>
+                </div>
+                
+    
+            
+                <div class="col-md-4">
+                    <h4>Newsletter</h4>
+                    <p>Inscrivez-vous pour recevoir les dernières actualités.</p>
+                    <form id="newsletterForm">
+                        <input type="email" class="form-control" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary mt-3">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="small">
+                <p>ROYAUTE MODE, une reférence en style vestimentaire, un style nouveau, un autre regard...</p>
+                <p>&copy; 2025, Royauté Mode. Tous droits réservés.</p>
+            </div>
+            
+        </div>
+    </footer>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="accueil.js"></script>
+
+</body>
+</html>

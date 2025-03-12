@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.avan {
+    padding: 10px;
+    margin: 10px;
+    background-image: url('images/superbe-modele-africain-coiffure-frisee-volumineuse-costume-elegant-posant-mur-beige_273443-4097.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    
+}
+.monMain {
+    background-color: #f4f6f7;
+}
+.cont {
+    padding: 10px;
+    margin: 10px;
+    background-image: url('images/portrait-jeune-femme-souriante-fond-jaune_1048944-25316433.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+nav {
+    background: #f0f0f0;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.reveal {
+    opacity: 1;
+    transition: opacity 0s ease-in-out;
+  }
+  
+  .reveal.visible {
+    opacity: 1;
+  } 
+  
+  
+  .btn-hover {
+    background-color: #0056b3 !important;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+
+  .image-hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+.social-icons {
+    display: flex;
+    justify-content: center;  
+    gap: 20px;  
+}
+
+
+.social-icons .social-icon img {
+    width: 30px;  
+    height: 30px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.social-icon-hover:hover {
+    transform: scale(1.2); 
+}
+
+#logo {
+    width: 100px;  
+    height: auto;
+    transition: width 0.3s ease;  
+}
+
+.shrink-logo {
+    width: 50px;  
+}
+
+/* mon animation sur le déroulant */
+
+.offcanvas {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+.offcanvas-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary {
+    background: #ff6f61;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background: #e65b50;
+    transform: scale(1.05);
+}
+
+.dropdown-toggle {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.dropdown-toggle:hover {
+    background: #e65b50;
+}
+
+.dropdown-menu {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+.dropdown-menu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.dropdown-menu li i {
+    margin-right: 10px;
+    color: #ff6f61;
+}
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
